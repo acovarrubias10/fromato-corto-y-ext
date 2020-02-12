@@ -1,3 +1,4 @@
+import FechaNacimiento from "./FechaNacimiento.js" 
 class Main {
     probarFechas() {
         let fecha1 = new FechaNacimiento(10, 1, 2000)
@@ -5,10 +6,8 @@ class Main {
     
         console.log(fecha1.getFormatoCorto())
         console.log(fecha2.getFormatoCorto())
-    
-        fecha1.getFormatoExtendido()
-        fecha2.getFormatoExtendido()
-        
+        console.log(fecha1.getFormatoExtendido())
+        console.log(fecha2.getFormatoExtendido())
         console.log(fecha1.getEdad())
         console.log(fecha2.getEdad())
     }
